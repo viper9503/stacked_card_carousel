@@ -139,7 +139,7 @@ class _StackedCardCarouselState extends State<StackedCardCarousel> {
               scale = 0.95 + (factor * 0.1 / 2);
             }
             return Positioned.fill(
-              top: -position + (20.0 * item.key),
+              top: -position + (30.0 * item.key),
               child: Align(
                 alignment: Alignment.topCenter,
                 child: Wrap(
